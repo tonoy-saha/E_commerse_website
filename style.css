@@ -330,4 +330,60 @@ footer{
 footer p{
     text-align: center;
     color: #2f2f2f;
+
+}
+
+/* filepath: e:\Web dev projects\E_commerse_website\style.css */
+
+@media (max-width: 1024px) {
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+  .section1,
+  .section1button {
+    position: static;
+    transform: none;
+    width: 100%;
+    text-align: center;
+  }
+  .iconarea {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .productSection,
+  .about {
+    width: 98%;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .productBox {
+    width: 90vw;
+    margin: 10px auto;
+  }
+  .NotificationInput {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo a {
+    font-size: 1.2rem;
+  }
+  .section1button h1,
+  .section1button h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .btn,
+  .NotificationButton {
+    width: 100px;
+    font-size: 0.8rem;
+  }
 }
